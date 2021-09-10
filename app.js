@@ -69,3 +69,10 @@ server.listen(8080, () => {
   const { address, port } = server.address();
   console.log(`Server is listening on: http://${address}:${port}`);
 });
+
+console.log("Dinosaurios");
+
+/*===============
+EVENTS
+===============*/
+let EventEmitter = require("events");
